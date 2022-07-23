@@ -7,6 +7,6 @@ function tiktak(){
     let second= new Date().getSeconds();
     sec.style.transform = `rotate(${180 + (second * 6)}deg)`
     min.style.transform=`rotate(${180+(munite*6)}deg)`
-    min.style.transform=`rotate(${180+(hours*30)}deg)`
+    hours.style.transform=`rotate(${180+(hour*30)}deg)`
 }
 setInterval(tiktak, 1000);
